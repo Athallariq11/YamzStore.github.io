@@ -10,10 +10,13 @@
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
 </head>
 
 <body>
 
+    <div id="particles-js"></div>
     <!--Bagian NavBar-->
     <div>
         <!-- navbar start -->
@@ -91,160 +94,217 @@
         <!-- Main Produk -->
         <div class="container mt-5">
             <div class="row col-sm">
+                <!-- Main YOUTUBE Produk -->
                 <div class="card col-sm-3">
                     <img src="img/yt.png" class="img-fluid" alt="...">
                     <div class="card-body ">
                         <h5 class="card-title text-center">Youtube Premium</h5>
                         <button type="button" class="btn btn-secondary w-100" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
+                            data-bs-target="#youtubeModal">
                             Deskripsi
+                            <i class="bi bi-info-circle-fill"></i>
                         </button>
-                        <a href="https://wa.me/6282278501731" class="btn btn-primary w-100 mt-1">Beli bang <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-check-fill" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
-                          </svg></a>
+                        <a href="https://wa.me/6282278501731" class="btn btn-primary w-100 mt-1">Beli bang <i class="bi bi-bag-check-fill"></i></a>
                     </div>
                 </div>
+                <!-- Main SPOTIFY Produk -->
                 <div class="card col-sm-3">
                     <img src="img/spotify.jpg" class="img-fluid" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-center">Spotify Premium</h5>
                         <button type="button" class="btn btn-secondary w-100" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal1">
+                            data-bs-target="#spotifymodal">
                             Deskripsi
+                            <i class="bi bi-info-circle-fill"></i>
                         </button>
-                        <a href="https://wa.me/6282278501731" class="btn btn-primary w-100 mt-1">Beli bang <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-check-fill" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
-                          </svg></a>
+                        <a href="https://wa.me/6282278501731" class="btn btn-primary w-100 mt-1">Beli bang <i class="bi bi-bag-check-fill"></i></a>
                     </div>
                 </div>
+                <!-- Main NETFLIX Produk -->
                 <div class="card col-sm-3">
                     <img src="img/netflix.png" class="img-fluid" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-center">Netflix <br></h5>
                         <button type="button" class="btn btn-secondary w-100" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
+                            data-bs-target="#netflixmodal">
                             Deskripsi
+                            <i class="bi bi-info-circle-fill"></i>
                         </button>
-                        <a href="https://wa.me/6282278501731" class="btn btn-primary w-100 mt-1">Beli bang <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-check-fill" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
-                          </svg></a>
+                        <a href="https://wa.me/6282278501731" class="btn btn-primary w-100 mt-1">Beli bang <i class="bi bi-bag-check-fill"></i></a>
                     </div>
                 </div>
+                <!-- Main DISNEY Produk -->
                 <div class="card col-sm-3">
                     <img src="img/disney.png" class="img-fluid" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-center">Disney+ Hotstar</h5>
                         <button type="button" class="btn btn-secondary w-100" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
+                            data-bs-target="#disneymodal">
                             Deskripsi
+                            <i class="bi bi-info-circle-fill"></i>
                         </button>
-                        <a href="https://wa.me/6282278501731" class="btn btn-primary w-100 mt-1">Beli bang <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-check-fill" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
-                          </svg></a>
+                        <a href="https://wa.me/6282278501731" class="btn btn-primary w-100 mt-1">Beli bang <i class="bi bi-bag-check-fill"></i></a>
                     </div>
                 </div>
+                <!-- Main VIDIO Produk -->
+                <div class="card col-sm-3">
+                    <img src="img/vidio.png" class="img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Vidio Premiere</h5>
+                        <button type="button" class="btn btn-secondary w-100" data-bs-toggle="modal"
+                            data-bs-target="#vidioModal">
+                            Deskripsi
+                            <i class="bi bi-info-circle-fill"></i>
+                        </button>
+                        <a href="https://wa.me/6282278501731" class="btn btn-primary w-100 mt-1">Beli bang <i class="bi bi-bag-check-fill"></i></a>
+                    </div>
+                </div>
+                <!-- Main HBO GO Produk -->
                 <div class="card col-sm-3">
                     <img src="img/hbo.png" class="img-fluid" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-center">HBO GO</h5>
                         <button type="button" class="btn btn-secondary w-100" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
+                            data-bs-target="#hboModal">
                             Deskripsi
+                            <i class="bi bi-info-circle-fill"></i>
                         </button>
-                        <a href="https://wa.me/6282278501731" class="btn btn-primary w-100 mt-1">Beli bang <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-check-fill" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
-                          </svg></a>
+                        <a href="https://wa.me/6282278501731" class="btn btn-primary w-100 mt-1">Beli bang <i class="bi bi-bag-check-fill"></i></a>
                     </div>
                 </div>
+                <!-- Main AMAZON PV Produk -->
                 <div class="card col-sm-3">
                     <img src="img/prime.png" class="img-fluid" alt="amazon">
                     <div class="card-body">
                         <h5 class="card-title text-center">Amazon Prime Video</h5>
                         <button type="button" class="btn btn-secondary w-100" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
+                            data-bs-target="#amazonModal">
                             Deskripsi
+                            <i class="bi bi-info-circle-fill"></i>
                         </button>
-                        <a href="https://wa.me/6282278501731" class="btn btn-primary w-100 mt-1">Beli bang <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-check-fill" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
-                          </svg></a>
+                        <a href="https://wa.me/6282278501731" class="btn btn-primary w-100 mt-1">Beli bang <i class="bi bi-bag-check-fill"></i></a>
                     </div>
                 </div>
+                <!-- Main CANVA Produk -->
                 <div class="card col-sm-3">
                     <img src="img/canva.png" class="img-fluid" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-center">Canva Pro</h5>
                         <button type="button" class="btn btn-secondary w-100" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
+                            data-bs-target="#canvaModal">
                             Deskripsi
+                            <i class="bi bi-info-circle-fill"></i>
                         </button>
-                        <a href="https://wa.me/6282278501731" class="btn btn-primary w-100 mt-1">Beli bang <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-check-fill" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
-                          </svg></a>
+                        <a href="https://wa.me/6282278501731" class="btn btn-primary w-100 mt-1">Beli bang <i class="bi bi-bag-check-fill"></i></a>
                     </div>
                 </div>
+                <!-- Main WeTV Produk -->
                 <div class="card col-sm-3">
                     <img src="img/WeTV.png" class="img-fluid" alt="WeTV">
                     <div class="card-body">
                         <h5 class="card-title text-center">WeTV</h5>
                         <button type="button" class="btn btn-secondary w-100" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
+                            data-bs-target="#wetvModal">
                             Deskripsi
+                            <i class="bi bi-info-circle-fill"></i>
                         </button>
-                        <a href="https://wa.me/6282278501731" class="btn btn-primary w-100 mt-1">Beli bang <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-check-fill" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
-                          </svg></a>
+                        <a href="https://wa.me/6282278501731" class="btn btn-primary w-100 mt-1">Beli bang <i class="bi bi-bag-check-fill"></i></a>
                     </div>
                 </div>
+                <!-- Main Viu Produk -->
                 <div class="card col-sm-3">
-                    <img src="img/mobilelegends.png" class="img-fluid" alt="...">
+                    <img src="img/viu.png" class="img-fluid" alt="WeTV">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Mobile Legends</h5>
+                        <h5 class="card-title text-center">VIU</h5>
                         <button type="button" class="btn btn-secondary w-100" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
+                            data-bs-target="#viuModal">
                             Deskripsi
+                            <i class="bi bi-info-circle-fill"></i>
                         </button>
-                        <a href="https://wa.me/6282278501731" class="btn btn-primary w-100 mt-1">Beli bang <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-check-fill" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
-                          </svg></a>
+                        <a href="https://wa.me/6282278501731" class="btn btn-primary w-100 mt-1">Beli bang <i class="bi bi-bag-check-fill"></i></a>
                     </div>
                 </div>
+                <!-- Main Iflix Produk -->
                 <div class="card col-sm-3">
-                    <img src="img/mobilelegends.png" class="img-fluid" alt="...">
+                    <img src="img/iflix.png" class="img-fluid" alt="WeTV">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Mobile Legends</h5>
+                        <h5 class="card-title text-center">Iflix</h5>
                         <button type="button" class="btn btn-secondary w-100" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
+                            data-bs-target="#iflixModal">
                             Deskripsi
+                            <i class="bi bi-info-circle-fill"></i>
                         </button>
-                        <a href="https://wa.me/6282278501731" class="btn btn-primary w-100 mt-1">Beli bang <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-check-fill" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
-                          </svg></a>
+                        <a href="https://wa.me/6282278501731" class="btn btn-primary w-100 mt-1">Beli bang <i class="bi bi-bag-check-fill"></i></a>
                     </div>
                 </div>
+
+                <!-- Main Iflix Produk -->
+                <div class="card col-sm-3">
+                    <img src="img/bs.png" class="img-fluid" alt="WeTV">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">BSTATION</h5>
+                        <button type="button" class="btn btn-secondary w-100" data-bs-toggle="modal"
+                            data-bs-target="#bsModal">
+                            Deskripsi
+                            <i class="bi bi-info-circle-fill"></i>
+                        </button>
+                        <a href="https://wa.me/6282278501731" class="btn btn-primary w-100 mt-1">Beli bang <i class="bi bi-bag-check-fill"></i></a>
+                    </div>
+                </div>
+
+                <!-- Main INSTAGRAM Produk -->
                 <div class="card col-sm-3">
                     <img src="img/ig.png" class="img-fluid" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Followers Instagram</h5>
+                        <h5 class="card-title text-center">Instagram</h5>
                         <button type="button" class="btn btn-secondary w-100" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
+                            data-bs-target="#igModal">
                             Deskripsi
+                            <i class="bi bi-info-circle-fill"></i>
                         </button>
-                        <a href="https://wa.me/6282278501731" class="btn btn-primary w-100 mt-1">Beli bang <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-check-fill" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
-                          </svg></a>
+                        <a href="https://wa.me/6282278501731" class="btn btn-primary w-100 mt-1">Beli bang <i class="bi bi-bag-check-fill"></i></a>
                     </div>
                 </div>
+
+                <!-- Main TIKTOK Produk -->
                 <div class="card col-sm-3">
                     <img src="img/tiktok.png" class="img-fluid" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Followers Tiktok</h5>
+                        <h5 class="card-title text-center">Tiktok</h5>
                         <button type="button" class="btn btn-secondary w-100" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
+                            data-bs-target="#tiktokModal">
                             Deskripsi
+                            <i class="bi bi-info-circle-fill"></i>
                         </button>
-                        <a href="https://wa.me/6282278501731" class="btn btn-primary w-100 mt-1">Beli bang <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-check-fill" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
-                          </svg></a>
+                        <a href="https://wa.me/6282278501731" class="btn btn-primary w-100 mt-1">Beli bang <i class="bi bi-bag-check-fill"></i></a>
+                    </div>
+                </div>
+
+                <!-- Main ML Produk -->
+                <div class="card col-sm-3">
+                    <img src="img/mobilelegends.png" class="img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Mobile Legends</h5>
+                        <button type="button" class="btn btn-secondary w-100" data-bs-toggle="modal"
+                            data-bs-target="#mlModal">
+                            Deskripsi
+                            <i class="bi bi-info-circle-fill"></i>
+                        </button>
+                        <a href="https://wa.me/6282278501731" class="btn btn-primary w-100 mt-1">Beli bang <i class="bi bi-bag-check-fill"></i></a>
+                    </div>
+                </div>
+
+                <!-- Main PUBG Produk -->
+                <div class="card col-sm-3">
+                    <img src="img/pubg.jpg" class="img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">PUBG Mobile</h5>
+                        <button type="button" class="btn btn-secondary w-100" data-bs-toggle="modal"
+                            data-bs-target="#pubgModal">
+                            Deskripsi
+                            <i class="bi bi-info-circle-fill"></i>
+                        </button>
+                        <a href="https://wa.me/6282278501731" class="btn btn-primary w-100 mt-1">Beli bang <i class="bi bi-bag-check-fill"></i></a>
                     </div>
                 </div>
             </div>
@@ -252,8 +312,8 @@
         <!-- Main Produk end -->
 
         <!-- Modal -->
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <!-- YOUTUBE Modal -->
+        <div class="modal fade" id="youtubeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -271,12 +331,12 @@
                 </div>
             </div>
         </div>
-
-        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <!-- SPOTIFY Modal  -->
+        <div class="modal fade" id="spotifymodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Youtube Premium</h1>
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Spotify Premium</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -305,6 +365,354 @@
                 </div>
             </div>
         </div>
+        <!-- NETFLIX Modal -->
+        <div class="modal fade" id="netflixmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Netflix</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Price :<br>
+                        - Sharing 1 Bulan = 30k (bisa req profile + pin)<br>
+                        - Private 1 Bulan = 120k<br><br>
+
+
+                        Keterangan :<br>
+                        - Sharing(berbagi profile dengan orang lain), 1 Profile 1 User<br>
+                        - Private dapat 1 akun / semua profile sendiri (5 profile)<br>
+                        ⚠️Screen Limit ketentuan dari netflix = 4 screen
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Disney Hotstart Modal -->
+        <div class="modal fade" id="disneymodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Disney+ Hotstart</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Price :<br>
+                        - Sharing 1 Bulan 2U = 14k (antilimit)<br>
+                        - Private 1 Bulan = 30k<br><br>
+
+
+                        Keterangan :<br>
+                        - Login Menggunakan Nomor<br>
+                        - 1 Device Login 1 user<br>
+                        - Sharing max 1x login, selebihnya kena fee 2k<br>
+                        - Private bebas login<br><br>
+                        ⚠️Screen Limit ketentuan dari disney = 2 screen
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- HBOGO Modal -->
+        <div class="modal fade" id="hboModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">HBO GO</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Price :<br>
+                        Sharing 1 bulan 17k<br>
+                        Private 1 bulan  55k<br><br>
+
+                        Sharing 3 bulan  35k<br>
+                        Private 3 bulan 95k<br>
+
+                        Keterangan :<br>
+                        - Akun dari Seller<br>
+                        - Sharing Login tv beli 2 slot<br><br>
+                        ⚠️Screen Limit ketentuan dari Hbo Go= 3 screen
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- AMAZON PRIME VIDEO Modal -->
+        <div class="modal fade" id="amazonModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Amazon Prime Video</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Price :<br>
+                        Sharing 1 Bulan 10k<br>
+                        Private 1 Bulan 25k <br><br>
+
+                        Keterangan :<br>
+                        - All device<br>
+                        - Akun dari Seller<br><br>
+                        ⚠️Screen Limit ketentuan dari Amazon Prime Video = 3 screen
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- CANVA PRO Modal -->
+        <div class="modal fade" id="canvaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Amazon Prime Video</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Price :<br>
+                        - 1 bulan = 5k<br>
+                        - 1 Tahun = 10k<br>
+                        Garansi 8 bulan<br>
+                        - Lifetime = 25k<br>
+                        Garansi 1 tahun<br><br>
+
+                        Keterangan :<br>
+                        - Sistem via invite email<br>
+                        - Cuma butuh email
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- WeTV Modal -->
+        <div class="modal fade" id="wetvModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel"> WETV VIP</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Price :<br>
+
+                        - Sharing 1 bln = 7k<br>
+                        - Shared 3 bln = 15k<br>
+                        - Shared 1 Tahun = 25k<br>
+                        Garansi 6 bulan<br><br>
+
+                        ⚠️Recommend Login & Nonton via browser
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- IG Modal -->
+        <div class="modal fade" id="igModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Instagram</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Price :<br>
+                        1000 Follower Luar = 15k<br>
+                        2000 Follower Luar = 20k<br>
+                        Auto refill, Garansi 6 Bulan<br>
+                        —————————————————————————<br>
+                        1000 Follower Indo = 30k<br>
+                        2000 Follower Indo = 52k<br>
+                        Auto Refil 7Days<br>
+                        —————————————————————————<br>
+                        1000 Follower Indo = 20k<br>
+                        2000 Follower Indo = 35k<br>
+                        No Refill, proses masuk 1-3 hari<br>
+                        —————————————————————————<br>
+                        500 Likes = 5k<br>
+                        1000 Likes = 8k<br>
+                        2000 Likes = 12k<br>
+                        5000 Likes = 25k<br>
+                        Auto refill 30days<br><br>
+
+                        Keterangan:<br>
+                        - Proses Masuk Paling Lama 3x24<br>
+                        - Cuma butuh Link Akun/Postingan<br>
+                        - Tidak Boleh private akun<br><br>
+
+                        ⚠️Refill akan dilakukan jika target drop dari jumlah pesanan, Proses refill setiap 2hari sekali
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- TIJTOK Modal -->
+        <div class="modal fade" id="tiktokModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">TIKTOK</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Price :<br>
+                        
+                        500 Followers = 15k<br>
+                        1000 Followers = 25k<br>
+                        No Refill<br>
+                        —————————————————————————<br>
+                        500 Followers = 20k<br>
+                        1000 Followers = 30k<br>
+                        Auto Refill 30days<br>
+                        —————————————————————————<br>
+                        500 Video Likes = 5k<br>
+                        1000 Video Likes = 8k<br>
+                        No Refill<br>
+                        —————————————————————————<br>
+                        500 Video Likes = 10k<br>
+                        1000 Video Likes = 15k<br>
+                        Auto Refill 30days<br><br>
+
+                        Keterangan:<br>
+                        - Proses Masuk Paling Lama 3x24<br>
+                        - Cuma butuh Link Akun/Postingan<br>
+                        - Tidak Boleh private akun<br><br>
+
+                        ⚠️Refill akan dilakukan jika target drop dari jumlah pesanan, Proses refill setiap 2hari sekali
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- VIU Modal -->
+        <div class="modal fade" id="viuModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel"> VIU</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Price :<br>
+
+                        1 bulan shared = 10k<br>
+                        6 bulan shared = 20k<br>
+                        1 tahun shared = 30k<br>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- IFLIX Modal -->
+        <div class="modal fade" id="iflixModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">IFLIX</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Price :<br>
+
+                        1 bulan shared = 15k<br>
+                        1 tahun shared = 25k<br>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- IFLIX Modal -->
+        <div class="modal fade" id="bsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">BSTATION</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Price :<br>
+
+                        Sharing 1 bulan = 10k<br>
+                        Sharing 1 tahun= 25k<br>
+                        Garansi 6 bulan<br>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ML Modal -->
+        <div class="modal fade" id="mlModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">BSTATION</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Price :<br>
+
+                        SOOOOOOOOOOONNNNNNNNNN......................
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PUBG Modal -->
+        <div class="modal fade" id="pubgModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">BSTATION</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Price :<br>
+
+                        SOOOOOOOOOOONNNNNNNNNN......................
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- modal end -->
 
         <!-- Start Footer -->
@@ -313,8 +721,8 @@
                 <div class="footer-container">
                     <div class="about">
                         <h1>YamzStore</h1>
-                        <p>YamzStore adalah salah satu Start Up Toko Online di indonesia yang berfokus kepada Top Up Game,
-                            Aplikasi Premium dan Kebutuhan Sosial Media. tentunya Murah, Aman,
+                        <p>YamzStore adalah salah satu Start Up Toko Online di indonesia yang berfokus kepada
+                            Aplikasi Premium, Kebutuhan Sosial Media dan Top Up Game. tentunya Murah, Proses Cepat, Aman,
                             dan 100% Terpercaya.</p>
                     </div>
 
@@ -322,11 +730,11 @@
                     <div class="contact">
                         <h1>Kontak Saya</h1>
                         <!-- Add font awesome icons -->
-                        <a href="https://www.instagram.com/yaamz11/" class="fa fa-instagram"></a>
-                        <a href="https://www.twitter.com/yamabaik/" class="fa fa-twitter"></a>
-                        <a href="https://www.facebook.com/yama.equinox/" class="fa fa-facebook"></a>
-                        <a href="https://www.t.me/yamzed11/" class="fa fa-telegram"></a>
-                        <a href="https://github.com/yamz-11" class="fa fa-github"></a>
+                        <a href="https://www.instagram.com/yaamz11/"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.twitter.com/yamabaik/"><i class="bi bi-twitter"></i></a>
+                        <a href="https://www.facebook.com/yama.equinox/"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.t.me/yamzed11/"><i class="bi bi-telegram"></i></a>
+                        <a href="https://github.com/yamz-11"><i class="bi bi-github"></i></a>
                         
                     </div>
                     <!-- Contact end -->
@@ -338,13 +746,8 @@
                 </div>
             </footer>
         </div>
-        
         <!-- End Footer -->
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
 </body>
 
 </html>
