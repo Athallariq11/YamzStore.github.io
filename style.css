@@ -45,4 +45,10 @@
   width: 50px;
   color: rgb(28, 11, 11);
   }
- 
+
+
+
+.card-body{
+  margin-top: 10%;
+  margin: auto;
+}
